@@ -3,7 +3,7 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', 'sans-serif';
 	font-style: normal;
 }
 .top-header {
@@ -41,7 +41,6 @@ body {
 .social-link img {
 	width: 20px;
 }
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -69,6 +68,7 @@ body {
 
 .picture img {
 	width: 100%;
+	aspect-ratio: 1;
 
 }
 #about-me {
