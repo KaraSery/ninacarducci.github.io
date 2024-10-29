@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<title>Nina Carducci - Photographe indépendante</title>
+	<title>Nina Carducci - Photographe indépendante à Bordeaux</title>
 
-	<meta name="description" content="Author: Nina Carducci, Category: Portfolio, Services: 'Shooting photo, Photo retouching, Album photo'">
+	<meta name="description" content="Photographe indépendante à Bordeaux, je propose des séances photo professionnelles, des albums personnalisés et des services de retouche pour capturer vos plus beaux moments. Faites appel à une experte passionnée pour des souvenirs uniques et des clichés d'exception. Découvrez mes services sur-mesure pour particuliers et entreprises.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
+<!--  Meta Open Graph	-->
+	<meta property="og:url" content="https://karasery.github.io/ninacarducci.github.io">
+	<meta property="og:title" content="Nina Carducci - Photographe indépendante à Bordeaux">
+	<meta property="og:site_name" content="Nina Carducci - Photographe indépendante à Bordeaux">
+	<meta property="og:description" content="Photographe indépendante à Bordeaux, je propose des séances photo professionnelles, des albums personnalisés et des services de retouche pour capturer vos plus beaux moments. Faites appel à une experte passionnée pour des souvenirs uniques et des clichés d'exception. Découvrez mes services sur-mesure pour particuliers et entreprises.">
+	<meta property="og:image" content="https://github.com/KaraSery/ninacarducci.github.io/blob/main/assets/images/nina_facebook_card.png?raw=true">
+	<meta property="og:image:alt" content="Nina Carducci">
+	<meta property="og:type" content="website">
+
+<!--  Meta Twitter	-->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:image" content="https://github.com/KaraSery/ninacarducci.github.io/blob/main/assets/images/nina_facebook_card.png?raw=true">
+	<meta property="twitter:image:alt" content="Nina Carducci">
 
 	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
@@ -16,10 +29,49 @@
 	<script src="./assets/jquery/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"name": "Nina Carducci",
+			"address": {
+				"@type": "Postaladdress",
+				"addressCountry": "FR",
+				"addressLocality": "Bordeaux",
+				"postalCode": "33200",
+				"streetAddress": "68 avenue Alsace-Lorraine"
+			},
+			"telephone": "+335 56 67 78 89",
+			"openingHousSpecification": [
+				{
+					"@type": "openingHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			],
+			"photo": "https://github.com/KaraSery/ninacarducci.github.io/blob/main/assets/images/nina.png",
+			"image": [
+				"https://raw.githubusercontent.com/KaraSery/ninacarducci.github.io/refs/heads/main/assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg",
+				"https://github.com/KaraSery/ninacarducci.github.io/blob/main/assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg?raw=true",
+				"https://github.com/KaraSery/ninacarducci.github.io/blob/main/assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg?raw=true",
+				"https://github.com/KaraSery/ninacarducci.github.io/blob/main/assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"
+			],
+			"priceReange": "$$$"
+		}
+
+	</script>
 </head>
 <body>
 <header class="top-header">
-	<h2 class="name">Nina Carducci</h2>
+	<h1 class="name">Nina Carducci</h1>
 	<nav class="nav">
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -31,7 +83,6 @@
 	</nav>
 </header>
 <div id="header">
-
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -97,7 +148,7 @@
 <section id="services">
 	<h2 class="title">Mes services</h2>
 	<div class="container">
-		<div class="service">
+		<article class="service">
 			<div class="service__description">
 				<h3>Shooting photo</h3>
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
@@ -107,8 +158,8 @@
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
-		</div>
-		<div class="service">
+		</article>
+		<article class="service">
 			<div class="service__description">
 				<h3>Retouches</h3>
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
@@ -117,8 +168,8 @@
 				<h4>50€/photo</h4>
 				<span>2 AR par photo</span>
 			</div>
-		</div>
-		<div class="service">
+		</article>
+		<article class="service">
 			<div class="service__description">
 				<h3>Album photos</h3>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
@@ -127,7 +178,7 @@
 				<h4>400€ album A4</h4>
 				<span>30 pages recto/verso</span>
 			</div>
-		</div>
+		</article>
 	</div>
 </section>
 <section class="quote">
